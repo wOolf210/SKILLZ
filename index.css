@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+.reklama{
+    display: flex;
+    background-color:#57D9A6;
+    padding: 20px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1C33;
+    padding: 20px 82px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding: 20px;
+}
+.uno{
+    display: flex;
+    position: absolute;
+    top: 65px;
+    right: 70px;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+    
+}
+.cart span{
+    color: white;
+}
